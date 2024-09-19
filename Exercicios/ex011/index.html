@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Mídias</title>
+</head>
+<body>
+
+    <h1>Usando Imagens Dinâmicas</h1>
+
+    <!--Tag picture permite uma imagem e junto com a tag source permite escolher quando a imagem aparece de acordo com o tamanho da tela-->
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem grande">       
+    </picture>
+
+    <h1>Colocando audios</h1>
+    <!--Inserir audio com a tag audio, com a fonte do audio, e com alguns parametros como autoplay para começar automaticamente, controles, para aparecer os controles do audio. Varios formatos sao compativeis como mp3 wav entre outros-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/audio.mp3"type="audio/mpeg">
+    </audio>     
+    
+</body>
+</html>

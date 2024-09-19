@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em Arial, Verdana, sans-serif;
+    background-color: #4C5958;    
+    
+}
+
+h1{
+    
+    color: #10403B;
+}
+
+#principal{
+    color: #127369;
+    text-align: center;
+}
+
+
+p{
+   color: #BFBFBF;
+}

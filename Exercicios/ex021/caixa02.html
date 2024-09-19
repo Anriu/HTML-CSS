@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #D7D7D9;
+            background-color: #3C3D40;
+        }
+        header{
+            background-color: #212226;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            padding: 10px;
+            margin: 10px;
+        }
+        nav > a{
+            border-radius:16px;
+	        border:2px solid #313433;
+	        display:inline-block;
+            padding: 5px 40px;
+            text-decoration: none;
+            background-color: #D7D7D9;
+            color: black; 
+           
+           
+        }
+        nav > a:hover{
+            background-color: #9FA3A6;
+        }
+
+        nav > a:active{
+            position:relative;
+	        top:3px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+            <h1>Meu Site</h1>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        
+    </header>
+    <main>
+        <section id="assuntos"></section>
+
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error recusandae ad, reprehenderit dolorem officia itaque eligendi iusto facilis nihil, eos blanditiis quam sit, sapiente obcaecati ut optio praesentium mollitia commodi.</p>
+            <aside>
+                <p>Nome do autor</p>
+            </aside>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

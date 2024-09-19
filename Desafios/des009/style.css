@@ -1,0 +1,66 @@
+@charset "URF-8";
+
+body{
+    background-color: #262626;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFFFFF;
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.imagens{
+    width: 600px;
+    border-radius: 20px;
+   
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;  
+    
+}
+
+.elemento{
+    padding-left: auto;
+    
+}
+.elemento:hover{
+    transform: scale(1.12);
+    transition: .3s;
+    
+}
+
+a{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.canais{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: antiquewhite;
+  
+}
+
+.video{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
