@@ -1,33 +1,36 @@
 @charset "UTF-8";
-
+/*Estilo geral para deixar todo o conteudo com padding e margin de 0*/
 *{
     margin: 0px;
     padding: 0px;
 }
 
+/*Define o tamanho do cabeçalho juntamente com a cor de fonto e cor da fonte*/
 header{
     height: 100px;
     background-color: black;
     color: white;
 }
 
+/*Alinha o texto do H1 do header e deixa ele com um tamanho de 3em*/
 header > h1{
     text-align: center;
     padding: 20px;
     font-size: 3em;
 }
 
+/*Deixa o main flex, para poder realizar o alinhamendos elementos do main*/
 main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 100px;
 }
-
+/*Define a largura do conteudo principal*/
 article{
     width: 900px;      
 }
-
+/*Define o tamanho do aside assim como deixa ele com uma margen estilizada*/
 aside{
     margin-top: 10px;
     display: block;
@@ -37,13 +40,13 @@ aside{
     border-style: dotted;
     
 }
-
+/*Centraliza o H1 do main*/
 main h1{
     text-align: center;
     margin: 10px;
     font-size: 4em;
 }
-
+/*Estiliza os paragrafos do main*/
 main p{
     text-align: justify;
     font-size: 1.5em;
@@ -51,7 +54,7 @@ main p{
     text-indent: 50px;
     margin: 10px;
 }
-
+/*Centraliza o H2 do main*/
 main h2{
     text-align: center;
     margin: 20px;
@@ -59,15 +62,16 @@ main h2{
     font-size: 4em;
     
 }
-
+/*define o tamanho da imagem*/
 img.retrato{
     width: 900px;
 }
-
+/*faz com que a imagem dentro do main ocupe 100%% do seu espaço*/
 main img{
     max-width: 100%;
 }
 
+/*Cola a imagem na lateral do site*/
 .conteiner img{
     min-height: 40%;
     max-width: 30%;
