@@ -7,7 +7,7 @@
 
 /*Define o tamanho do cabeçalho juntamente com a cor de fonto e cor da fonte*/
 header{
-    height: 100px;
+    height: 200px;
     background-color: black;
     color: white;
 }
@@ -15,7 +15,7 @@ header{
 /*Alinha o texto do H1 do header e deixa ele com um tamanho de 3em*/
 header > h1{
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     font-size: 3em;
 }
 
@@ -23,12 +23,12 @@ header > h1{
 main {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 100px;
+    flex-wrap: wrap; 
 }
 /*Define a largura do conteudo principal*/
 article{
-    width: 900px;      
+    width: 900px;
+       
 }
 /*Define o tamanho do aside assim como deixa ele com uma margen estilizada*/
 aside{
@@ -44,7 +44,7 @@ aside{
 main h1{
     text-align: center;
     margin: 10px;
-    font-size: 4em;
+    font-size: 3em;
 }
 /*Estiliza os paragrafos do main*/
 main p{
@@ -53,6 +53,7 @@ main p{
     font-family: 'Times New Roman', Times, serif;
     text-indent: 50px;
     margin: 10px;
+    padding: 0px 15px;
 }
 /*Centraliza o H2 do main*/
 main h2{
