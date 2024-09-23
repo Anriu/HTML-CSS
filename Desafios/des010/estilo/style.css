@@ -63,6 +63,7 @@ header > p{
        
 }
 
+/*
 nav > a{
     color: white; 
     text-decoration: none;    
@@ -75,7 +76,7 @@ nav > a:hover{
     background-color: white;
     color: var(--cor1);
 }
-
+*/
 main{
     background-color: white;
     min-width: 320px;
