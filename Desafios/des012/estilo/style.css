@@ -1,8 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+/*Importação da font utilizada "Teko"*/
+.teko{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*Tira todo o margin e padin geral, e coloca todo o site com a font teko*/
 *{
     margin: 0px;
     padding: 0px;
+    font-family: teko;
 }
 
 a{
@@ -23,19 +36,36 @@ html, body{
 header{
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center; 
+    
 }
+
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 4em;
 }
 
 header > p{
     padding-bottom: 50px;
+    font-size: 2em; 
+    
 }
 
+section > p{
+    width: 40vh;
+    margin: auto;
+    font-size: 2.5em;
+    padding: 1em;
+    border-radius: 10px;
+   
+}
 
+section.imagem > p{
+    text-shadow: 2px 1px 0px black;
+    background-color: rgba(0, 0,0, 0.8);
+}
 
 footer{
     background-color: black;
@@ -47,8 +77,9 @@ footer{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 4em;
     text-align: center;
+   
 }
 
 section.normal{
@@ -56,7 +87,21 @@ section.normal{
     color: black;
 }
 
+
+
 section.imagem{
-    background-color: blueviolet;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-color: rgb(51,51,51);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+#imagem01{
+    background-image: url(../midias/imagens/background001.jpg);
+}
+
+#imagem02{
+    background-image: url(../midias/imagens/background002.jpg);   
 }
