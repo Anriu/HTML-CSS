@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.container {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /*column |column-reverse | row-reverse|*/
+    /*Define a quebra de linha dos elementos*/
+    flex-wrap: nowrap;
+    /* wrap | wrap-reverse*/
+    
+    /*Flex-flow recebe os valores tanto do flex-direction quanto do flex-wrap*/
+
+    /*Alinhamento horinzontal dos itens*/
+    justify-content: center;
+
+    /*Alinhamento vertical*/
+    align-items: center;
+    
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding:20px;
+    margin:5px;
+    width: 20%;
+}
