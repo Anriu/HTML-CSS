@@ -2,28 +2,34 @@
 
 .container {
     background-color: #ccc;
-    height: 200px;
+    height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /*column |column-reverse | row-reverse|*/
     /*Define a quebra de linha dos elementos*/
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     /* wrap | wrap-reverse*/
     
     /*Flex-flow recebe os valores tanto do flex-direction quanto do flex-wrap*/
 
     /*Alinhamento horinzontal dos itens*/
-    justify-content: center;
+    justify-content: flex-start;
 
     /*Alinhamento vertical*/
-    align-items: center;
+    align-items: stretch;
+    align-content: flex-start;
     
 }
 
 .item {
     background-color: #333;
     color: #fff;
-    padding:20px;
-    margin:5px;
-    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
 }
+.article-01{order: 3;}
+.article-02{order: 1; align-self: center;}
+.article-03{order: 2;}
+.article-04{order: 4;}
