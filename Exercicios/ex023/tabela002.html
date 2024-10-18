@@ -19,6 +19,7 @@
             margin: auto;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -29,6 +30,12 @@
         thead, tfoot{
             background-color: rgb(70, 69, 69);
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(70, 69, 69);
         }
 
         td.num{
@@ -66,10 +73,10 @@
 
     <table>
         <!--Dados da WikiPidia 18/10/2024-->
-        <caption>Populão dos estados brasileiros</caption>
+        <caption>Populo dos estados brasileiros</caption>
         <thead>
             <tr>
-                <th scope="col">Estados</th>
+                <th scope="col">Estado</th>
                 <th scope="col" style="width:100px ">População</th>
             </tr>
         </thead>
