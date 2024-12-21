@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1,p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+body{
+    background-color: #0A0B14;
+}
+.quadrado{
+    margin: auto;
+    background-color: #2B2E40;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 35vh;
+}
+div:hover{
+    background-color: #444964;
+    transform: scale(1.20);
+    transition: .3s;
+}
+
+
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1em;
+}
