@@ -17,3 +17,21 @@ td,th{
 th{
     font-weight: bold;
 }
+
+caption {
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding: 0px;
+}
+
+.destaque{
+    background-color: aquamarine;
+}
+
+col.cnome{
+    background-color: green;
+}
+
+col.cgrupo{
+    background-color: blueviolet;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 005</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+   
+<body>
+    <h1>Exercício de tabela</h1>
+    
+    <table>
+        <!--colgroup para aplicar uma regra css a uma coluna ou conjunto com colunas  sendo que independente do nome elas representam a ordem das colunas o primerou col se assosca com a primeira coluna, o segundo col se associa a segunda coluna, mas no caso o span="2" faz com que ele se associe também a coluna que virá em seguida-->
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">   
+        </colgroup>
+        
+       <caption>Cadastro</caption>
+       
+       <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissao</th>
+       </tr>
+       
+       <tr>
+           <td>Ana maria</td>
+           <td>F</td>
+           <td>54</td>
+           <td>Professora</td>
+        </tr>
+
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>89</td>
+            <td>Aposentado</td>
+        </tr>
+
+        <tr>
+            <td >Gustavo</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Analista</td>
+        </tr>
+
+        <tr>
+            <td>Roberta</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Advogada</td>
+        </tr>
+    </table>
+</body>
+</html>
